@@ -790,10 +790,8 @@ bSendPacket = true
 unloaded = false
 
 IdiotBox.ChangeName = _fhook_changename
-IdiotBox.Predict = dickwrap.Predict
 
 _G._fhook_changename = nil
-_G.dickwrap.Predict = nil
 
 idiot.TickCount = 0
 
